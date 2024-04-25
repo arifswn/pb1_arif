@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar CSS</title>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="assets/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- internal css -->
+    <style>
+      .warna {
+        background-color: aqua !important;
+        padding: 20px;
+        font-size: larger;
+        color: brown;
+        margin-left: 50px;
+        font-size: 24px;
+      }
+
+      h1 {
+        background-color: blue;
+        color: red;
+        font-size: 20px;
+        display: block;
+      }
+
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+
+        h1{
+          display: none;
+        }
+      }
+    </style>
+
+    <!-- external -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h3>Belajar CSS</h3>
+    <p class="warna">Belajar CSS (Casecading Style Sheet)</p>
+    <p class="warna">Belajar HTML</p>
+    <h1 class="artikel">
+      Hey Brow (Browser) Cari tag h1 yang terdapat di dalam class artikel, jika
+      ditemukan/ada, ubah warnanya menjadi merah, warna background menjadi biru
+      dan ukuran huruf menjadi 20 pixel.
+    </h1>
+    <!-- inline css -->
+    <h1 class="warna" style="background-color: bisque; color: blue">
+      Hello Brow (Browser)
+    </h1>
+
+    <hr />
+    <br />
+    <a href="belajar_background_css.html"
+      ><i class="fa fa-external-link"></i> &nbsp; Menuju Belajar Background</a
+    >
+    <br />
+    <a href="belajar_padingmargin_css.html"
+      ><i class="fa fa-external-link"></i> &nbsp; Menuju Belajar Padding dan
+      Margin</a
+    >
+    <br />
+    <a href="belajar_font_css.html"
+      ><i class="fa fa-external-link"></i> &nbsp; Menuju Belajar Font CSS</a
+    >
+    <br />
+    <a href="belajar_link_css.html"
+      ><i class="fa fa-external-link"></i> &nbsp; Menuju Belajar Link</a
+    >
+  </body>
+</html>
